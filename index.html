@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Rey ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <audio id="bgMusic" loop>
+    <source src="music/just the way you are.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicBtn">▶️ Play</button>
+
+    <canvas id="confetti"></canvas>
+
+    <!-- ===================== -->
+    <!-- OPENING -->
+    <!-- ===================== -->
+
+    <section id="opening" class="page active">
+
+    <div id="giftBox">
+
+        🎁
+
+    </div>
+
+    <h1>Happy Birthday REEEEY</h1>
+
+    <p>
+
+        AKU BIKIN INI BUAT KAMUUU
+
+        <br><br>
+
+        PENCET KADONYAAAA
+
+    </p>
+
+</section>
+
+
+    <!-- ===================== -->
+    <!-- LETTER -->
+    <!-- ===================== -->
+
+    <section id="letter" class="page">
+
+        <h1>Hai Rey 🤍</h1>
+
+        <p id="typing"></p>
+
+        <button id="toGallery">
+            ➡
+        </button>
+
+    </section>
+
+
+
+    <!-- ===================== -->
+    <!-- GALLERY -->
+    <!-- ===================== -->
+
+    <section id="gallery" class="page">
+
+    <h1>📸 FOTO</h1>
+
+    <div class="slider">
+
+        <button id="prev">❮</button>
+
+        <img
+            id="galleryImage"
+            src="images/foto1.jpeg"
+            alt="Kenangan Kita"
+        >
+
+        <button id="next">❯</button>
+
+    </div>
+
+    <div class="dots">
+
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+
+    </div>
+
+    <button id="backToLetter">⬅</button>
+    <button id="toReasons">
+
+
+        ➡
+
+    </button>
+
+    <div id="memoryModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal">&times;</span>
+
+        <h2 id="memoryTitle">💕 Kenangan</h2>
+
+        <p id="memoryText"></p>
+    </div>
+</div>
+
+</section>
+
+
+
+    <!-- ===================== -->
+    <!-- REASONS -->
+    <!-- ===================== -->
+
+    <section id="reasons" class="page">
+
+        <h1>10 hal yang aku SUKA dari REY</h1>
+
+        <ul id="reasonList"></ul>
+
+        <button id="backToGallery">⬅</button>
+        <button id="toQuiz">
+            ➡
+        </button>
+
+    </section>
+
+
+
+    <!-- ===================== -->
+    <!-- QUIZ -->
+    <!-- ===================== -->
+
+    <section id="quiz" class="page">
+
+        <h1>🎮 Quiz Buat Rey</h1>
+
+        <h2 id="question">
+            siapa menurut km orang yang paling ganteng 😎?
+        </h2>
+
+        <button id="backToReasons">⬅</button>
+        <div class="answers">
+
+            <button id="correct">
+                Evan 😎
+            </button>
+
+            <button id="wrong">
+                Orang lain 🤬
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================== -->
+    <!-- ENDING -->
+    <!-- ===================== -->
+
+    <section id="surprise" class="page">
+
+    <h1 id="loadingText">Loading...</h1>
+
+    <h2 id="loadingPercent">0%</h2>
+
+    <button id="backToQuiz">⬅</button>
+    <div id="giftFinal" style="display:none;">
+
+    <div id="magicGift">
+
+        <div class="bow"></div>
+
+        <div class="lid"></div>
+
+        <div class="box"></div>
+
+        <div class="ribbon-vertical"></div>
+
+        <div class="ribbon-horizontal"></div>
+
+        <div class="light"></div>
+
+    </div>
+
+    <div id="giftContent">
+
+        <h2>💌</h2>
+
+        <p>
+
+            Happy Birthday Rey ❤️
+
+            <br><br>
+
+            PENCEEEET ⬇
+
+        </p>
+
+        <button id="toEnding">
+
+            TERAKHIR BUAT REY
+
+        </button>
+
+    </div>
+
+</div>
+
+</section>
+
+    <section id="ending" class="page">
+
+    <button id="backToSurprise">⬅</button>
+    <h1>🎉 Happy Birthday Rey ❤️</h1>
+
+    <p id="endingText">
+
+        Semoga semua doa baik selalu menyertai REY.
+
+        <br><br>
+
+        makasih udah ngeluangin waktu
+        buat buka web yang ga begitu bagus ini dari aku :).
+
+        <br><br>
+
+        MAAF YA kalo WEBNYA ga sebagus itu :( (ini pertama kali aku bikin web tau 😎).
+
+        <br><br>
+
+        
+        tapi semoga web ini
+        bisa jadi sesuatu yang selalu bikin kamu
+        senyum tiap kali kamu buka web ini lagi.
+
+        <br><br>
+
+        🤍
+
+        <br><br>
+
+        I Love You REY,
+
+        <br>
+
+        <b>Evan</b>
+
+    </p>
+
+    <p id="credit">
+
+        Made by Evan <br></br>
+        13 Agustus 2026
+
+    </p>
+
+    <p id="lastLine">
+
+        See you in the next birthday (kalo memungkinkan 😔). 
+
+    </p>
+
+    <p id="finish">
+kamu kalo kangen aku buka aja web ini ya reeey. I LOVE YOU 🤍 <br>maaf alay hehe<br>
+</p>
+
+</section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
