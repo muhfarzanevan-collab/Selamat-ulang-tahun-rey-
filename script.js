@@ -96,24 +96,31 @@ let currentPhoto = 0;
 
 const typing = document.getElementById("typing");
 
-const text = `
+const text = `HAI REEEEY,
 
-HAI REEEEY,
+Selamat ulang tahun yaaa.
 
-selamat ulang tahun yaaa.
+Cie yang sekarang udah 20 tahun :).
 
-cie yang sekarang udah 20 tahun :).
+Semoga di ulang tahun Rey yang ke-20 ini Rey diberi kesehatan (INI PALING PENTING KARENA AKU GA TEGA KALO LIAT REY SAKIT ☹️).
 
-semoga di ulang tahun rey yang ke-20 ini rey diberi kesehatan (INI PALING PENTING KARENA AKU GA TEGA KALO LIAT REY SAKIT ☹️), semoga rey diberi kelancaran nanti ampe lulus dan kerja jugaa, semoga rey nanti makin kuat menghadapi semester selanjutnyaa, semoga rey kecantol aku ampe aku balik lagi nanti (aamiin). 
+Semoga Rey diberi kelancaran nanti sampai lulus dan kerja jugaa.
 
-aku beneran bersyukur banget bisa kenal sama kamu.
+Semoga Rey nanti makin kuat menghadapi semester selanjutnyaa.
 
-semoga kita masih bisa bikin banyak banyak kenangan yaaa.
+Semoga Rey kecantol aku ampe aku balik lagi nanti (aamiin). 🤍
 
-oiya, km tau ga kenapa aku milih lagu ini? karena aku suka judul lagu ini, dia kayak ngedeskripsiin cara aku suka km: I Love You Just The Way You Are 🤍
+Aku beneran bersyukur banget bisa kenal sama kamu.
 
+Semoga kita masih bisa bikin banyak-banyak kenangan yaaa.
 
-`;
+Oiya, km tau ga kenapa aku milih lagu ini?
+
+Karena aku suka judul lagu ini.
+
+Dia kayak ngedeskripsiin cara aku suka km:
+
+"I Love You Just The Way You Are." 🤍`;
 
 let index = 0;
 
@@ -178,19 +185,21 @@ easing:"ease"
 
 }
 
-function typeWriter(){
+function typeWriter() {
 
-    if(index < text.length){
+    if (index < text.length) {
 
-        typing.innerHTML += text.charAt(index);
+        if (text.charAt(index) === "\n") {
+            typing.innerHTML += "<br>";
+        } else {
+            typing.innerHTML += text.charAt(index);
+        }
 
         index++;
-
-        setTimeout(typeWriter,35);
-
+        setTimeout(typeWriter, 35);
     }
-
 }
+
 
 function showReasons(){
 

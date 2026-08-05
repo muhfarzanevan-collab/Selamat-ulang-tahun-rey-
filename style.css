@@ -97,10 +97,10 @@ p{
 
 }
 
-#typing{
-
-    min-height:220px;
-
+#typing {
+    text-align: center;
+    white-space: pre-wrap;
+    line-height: 1.8;
 }
 
 /* ===========================
