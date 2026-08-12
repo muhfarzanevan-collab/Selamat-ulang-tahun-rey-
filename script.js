@@ -104,11 +104,13 @@ cie yang sekarang udah 20 tahun :).
 
 semoga di ulang tahun Rey yang ke-20 ini Rey diberi kesehatan (INI PALING PENTING KARENA AKU GA TEGA KALO LIAT REY SAKIT ☹️).
 
-semoga Rey diberi kelancaran nanti sampai lulus dan kerja jugaa.
+semoga rey diberi kelancaran nanti sampai lulus dan kerja jugaa.
 
-semoga Rey nanti makin kuat menghadapi semester selanjutnyaa.
+semoga rey nanti makin kuat menghadapi semester selanjutnyaa.
 
-semoga Rey kecantol aku ampe aku balik lagi nanti (aamiin) 🤍. 
+semoga rey nanti makin dewasaa :).
+
+semoga rey kecantol aku ampe aku balik lagi nanti (aamiin) 🤍. 
 
 aku beneran bersyukur banget bisa kenal sama kamu.
 
