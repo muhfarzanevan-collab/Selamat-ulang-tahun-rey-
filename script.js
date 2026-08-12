@@ -83,7 +83,7 @@ const memories = [
 
     {
         title: "FAVORIT",
-        text: "INI FOTO FAVORIT AKU BANGEETTTT, KARENA di sini rey beneran sebahagia ituuu, aku seneng banget liat rey senenggg (nanti kalo aku udah sukses aku beliin km tiap minggu yaaa 😁)"
+        text: "INI FOTO FAVORIT AKU BANGEETTTT, KARENA di sini rey beneran sebahagia ituuu, aku seneng banget liat rey senenggg (nanti kalo aku udah sukses aku beliin km tiap minggu yaaa 😁. GA TIAP MINGGU< AKU BELIIN TIAP HARI JUGA BISA 😄)"
     }
 
 ];
@@ -98,27 +98,27 @@ const typing = document.getElementById("typing");
 
 const text = `HAI REEEEY,
 
-Selamat ulang tahun yaaa.
+selamat ulang tahun yaaa.
 
-Cie yang sekarang udah 20 tahun :).
+cie yang sekarang udah 20 tahun :).
 
-Semoga di ulang tahun Rey yang ke-20 ini Rey diberi kesehatan (INI PALING PENTING KARENA AKU GA TEGA KALO LIAT REY SAKIT ☹️).
+semoga di ulang tahun Rey yang ke-20 ini Rey diberi kesehatan (INI PALING PENTING KARENA AKU GA TEGA KALO LIAT REY SAKIT ☹️).
 
-Semoga Rey diberi kelancaran nanti sampai lulus dan kerja jugaa.
+semoga Rey diberi kelancaran nanti sampai lulus dan kerja jugaa.
 
-Semoga Rey nanti makin kuat menghadapi semester selanjutnyaa.
+semoga Rey nanti makin kuat menghadapi semester selanjutnyaa.
 
-Semoga Rey kecantol aku ampe aku balik lagi nanti (aamiin). 🤍
+semoga Rey kecantol aku ampe aku balik lagi nanti (aamiin) 🤍. 
 
-Aku beneran bersyukur banget bisa kenal sama kamu.
+aku beneran bersyukur banget bisa kenal sama kamu.
 
-Semoga kita masih bisa bikin banyak-banyak kenangan yaaa.
+semoga kita masih bisa bikin banyak kenang kenangan yaaa.
 
-Oiya, km tau ga kenapa aku milih lagu ini?
+oiya, km tau ga kenapa aku milih lagu ini?
 
-Karena aku suka judul lagu ini.
+karena aku suka judul lagu ini.
 
-Dia kayak ngedeskripsiin cara aku suka km:
+dia kayak ngedeskripsiin cara aku suka km:
 
 "I Love You Just The Way You Are." 🤍`;
 
