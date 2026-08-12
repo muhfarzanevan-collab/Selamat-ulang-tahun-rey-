@@ -68,7 +68,7 @@ const memories = [
 
     {
         title: "PHOTOBOOTH",
-        text: "REY MASIH INGET? ini pertama kali kita photobooth reeeey. di sini aku bener bener seneng banget bisa foto bareng km dan di post di sg hihihihihihi :) (BTW KM KENAPA CAKEP BANGET)"
+        text: "REY MASIH INGET? ini pertama kali kita photobooth reeeey. di sini aku bener bener seneeeeeeng banget bisa foto bareng km dan di post di sg hihihihihihi :) (BTW KM KENAPA CAKEP BANGET)"
     },
 
     {
